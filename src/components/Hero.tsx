@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
       ref={sectionRef} 
       className="min-h-screen flex flex-col justify-center relative overflow-hidden"
       style={{
-        backgroundImage: "url('/lovable-uploads/1534a4af-1aa8-483b-b710-1475416db087.png')",
+        backgroundImage: "url('/lovable-uploads/6aef9a8d-51e0-4f52-b99e-17cdbc954d50.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat"
