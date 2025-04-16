@@ -35,15 +35,26 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section id="home" ref={sectionRef} className="min-h-screen flex flex-col justify-center">
-      <div className="container mx-auto px-4 py-24 mt-16">
+    <section 
+      id="home" 
+      ref={sectionRef} 
+      className="min-h-screen flex flex-col justify-center relative overflow-hidden"
+      style={{
+        backgroundImage: "url('/lovable-uploads/1534a4af-1aa8-483b-b710-1475416db087.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
+      }}
+    >
+      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
+      <div className="container mx-auto px-4 py-24 mt-16 relative z-10">
         <div className="max-w-3xl">
           <p className="text-primary font-medium mb-2 fadeup-animation">Hello, my name is</p>
           <h1 className="text-4xl md:text-6xl font-bold mb-4 fadeup-animation">
-            John Doe
+            Bennadir Saber Ayoub
           </h1>
           <h2 className="text-2xl md:text-4xl font-semibold text-foreground/80 mb-6 fadeup-animation">
-            Front-End Developer | Hackathon Enthusiast
+            Front-End Developer | ENSP Student
           </h2>
           <p className="text-lg text-foreground/70 mb-8 max-w-xl fadeup-animation">
             I build exceptional, responsive websites and web applications that
@@ -59,7 +70,7 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex gap-4 fadeup-animation">
             <a
-              href="https://github.com"
+              href="https://github.com/Ayoub-Gsb"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-foreground transition-colors"
@@ -68,7 +79,7 @@ const Hero: React.FC = () => {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/saber-ayoub-bennadir/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-foreground transition-colors"
@@ -79,7 +90,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center pb-10 animate-bounce">
+      <div className="flex justify-center pb-10 animate-bounce relative z-10">
         <a href="#skills" aria-label="Scroll to Skills Section">
           <ArrowDown className="h-6 w-6" />
         </a>

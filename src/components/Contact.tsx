@@ -154,10 +154,10 @@ const Contact: React.FC = () => {
                     <div>
                       <h3 className="font-medium">Email</h3>
                       <a 
-                        href="mailto:hello@example.com" 
+                        href="mailto:saber_ayoub.bennadir@g.enp.edu.dz" 
                         className="text-foreground/70 hover:text-primary transition-colors"
                       >
-                        hello@example.com
+                        saber_ayoub.bennadir@g.enp.edu.dz
                       </a>
                     </div>
                   </div>
@@ -169,12 +169,12 @@ const Contact: React.FC = () => {
                     <div>
                       <h3 className="font-medium">GitHub</h3>
                       <a 
-                        href="https://github.com" 
+                        href="https://github.com/Ayoub-Gsb" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-foreground/70 hover:text-primary transition-colors"
                       >
-                        github.com/johndoe
+                        github.com/Ayoub-Gsb
                       </a>
                     </div>
                   </div>
@@ -186,12 +186,12 @@ const Contact: React.FC = () => {
                     <div>
                       <h3 className="font-medium">LinkedIn</h3>
                       <a 
-                        href="https://linkedin.com" 
+                        href="https://www.linkedin.com/in/saber-ayoub-bennadir/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-foreground/70 hover:text-primary transition-colors"
                       >
-                        linkedin.com/in/johndoe
+                        linkedin.com/in/saber-ayoub-bennadir
                       </a>
                     </div>
                   </div>
@@ -199,10 +199,10 @@ const Contact: React.FC = () => {
                   <div className="pt-4">
                     <h3 className="font-medium mb-2">Available For</h3>
                     <ul className="list-disc pl-5 space-y-1 text-foreground/80">
+                      <li>Web Development Projects</li>
                       <li>Hackathon Collaborations</li>
-                      <li>Freelance Projects</li>
                       <li>Open Source Contributions</li>
-                      <li>Remote Work Opportunities</li>
+                      <li>Learning Opportunities</li>
                     </ul>
                   </div>
                 </div>

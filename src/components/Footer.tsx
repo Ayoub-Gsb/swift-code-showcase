@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="mb-6 md:mb-0">
             <p className="text-center md:text-left">
               <span className="font-bold">Portfolio</span>{" "}
-              <span className="text-foreground/60">© {new Date().getFullYear()} John Doe</span>
+              <span className="text-foreground/60">© {new Date().getFullYear()} Bennadir Saber Ayoub</span>
             </p>
             <p className="text-sm text-foreground/60 mt-1 text-center md:text-left">
               Designed & Built with 💖 for Hackathons
@@ -18,14 +18,14 @@ const Footer: React.FC = () => {
           </div>
           <div className="flex space-x-6">
             <a
-              href="mailto:hello@example.com"
+              href="mailto:saber_ayoub.bennadir@g.enp.edu.dz"
               className="text-foreground/60 hover:text-primary transition-colors"
               aria-label="Email"
             >
               <Mail className="h-5 w-5" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Ayoub-Gsb"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-primary transition-colors"
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/saber-ayoub-bennadir/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/60 hover:text-primary transition-colors"

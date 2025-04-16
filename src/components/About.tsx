@@ -40,7 +40,7 @@ const About: React.FC = () => {
             <div className="rounded-lg overflow-hidden shadow-lg">
               <img
                 src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2344&q=80"
-                alt="John Doe working on code"
+                alt="Person working on code"
                 className="w-full"
               />
             </div>
@@ -49,28 +49,24 @@ const About: React.FC = () => {
             <h2 className="text-3xl font-bold mb-4 fadeup-animation">About Me</h2>
             <div className="space-y-4">
               <p className="text-foreground/80 fadeup-animation">
-                I'm a passionate front-end developer with a knack for creating beautiful, 
-                functional, and accessible web experiences. My journey in web development 
-                started 4 years ago, and I've been hooked ever since.
+                👋 Hi, I'm Bennadir Saber Ayoub
               </p>
               <p className="text-foreground/80 fadeup-animation">
-                I love participating in hackathons because they push me to think creatively,
-                solve problems efficiently, and collaborate effectively with diverse teams.
-                The energy and innovation at these events fuel my passion for coding and
-                continuously expanding my skill set.
+                I'm a first-year student at the École Nationale Supérieure Polytechnique (ENSP) with a passion for web development and software engineering. Currently diving deep into JavaScript and React, I'm building a solid foundation in front-end development.
               </p>
               <p className="text-foreground/80 fadeup-animation">
-                When I'm not coding, you can find me exploring new technologies, contributing
-                to open-source projects, or sharing my knowledge through blog posts and
-                mentoring junior developers.
+                Alongside web technologies, I also have strong skills in C and C++, which help me understand programming fundamentals and write efficient code. I love creating websites and working on real-world projects that challenge me to learn and grow.
+              </p>
+              <p className="text-foreground/80 fadeup-animation">
+                Welcome to my portfolio
               </p>
               <div className="fadeup-animation pt-4">
-                <h3 className="font-semibold text-xl mb-2">My Hackathon Philosophy</h3>
+                <h3 className="font-semibold text-xl mb-2">My Development Philosophy</h3>
                 <ul className="list-disc pl-5 space-y-2 text-foreground/80">
-                  <li>Collaboration over competition</li>
-                  <li>Learning is more valuable than winning</li>
-                  <li>Build solutions that solve real problems</li>
-                  <li>Code quality matters, even in a time crunch</li>
+                  <li>Building clean, maintainable code</li>
+                  <li>Creating intuitive user experiences</li>
+                  <li>Continuous learning and growth</li>
+                  <li>Solving real-world problems with technology</li>
                 </ul>
               </div>
             </div>
